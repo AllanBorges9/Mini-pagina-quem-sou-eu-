@@ -1,0 +1,64 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #55C1FF;
+  padding: 20px;
+}
+
+/* Seção "Sobre Mim" */
+#sobre {
+  background-color: #59656f;
+  padding: 30px;
+}
+
+#sobre .foto {
+  width: 180px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Seção "Interesses" */
+#interesses {
+  background-color: #68a357;
+  padding: 30px;
+  text-align: left;
+  color: #fff;
+}
+
+#interesses ul {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+
+/* Seção "Contato" */
+#contato {
+  background-color: #EB5E28;
+  padding: 30px;
+}
+
+#contato a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+#contato ul{
+    list-style-type:none;
+}
+
+#contato a:hover {
+  color: #000;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1a1919;
+  padding: 15px;
+  font-size: 14px;}
+  
